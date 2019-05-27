@@ -1,0 +1,84 @@
+.topo-header .titulo-principal {
+    text-align: center;
+}
+.topo-header {
+    position: relative;
+    padding: 10em;
+}
+.palavras-home {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.palavra-home {
+    position: absolute;
+}
+.blockchain {
+    top: 45%;
+    left: 3%;
+}
+.clean-code {
+    top: 60%;
+    left: 27%;
+}
+.collaboration {
+    bottom: 10%;
+    left: 6%;
+}
+.design {
+    right: 7%;
+    top: 44%;
+}
+.design-thinking {
+    right: 7%;
+    top: 60%;
+
+}
+.big-data {
+    right: 8%;
+    bottom: 13%;
+}
+.agile {
+    top: 8%;
+    right: 20%;
+}
+.lot {
+    top: 37%;
+    left: 2%;
+}
+.digital {
+    left: 49%;
+    bottom: 10%;
+}
+.machine-learning {
+    left: 47%;
+    top: 10%;
+}
+.artificial-intelligence {
+    top: 3%;
+    left: 7%;
+}
+.paragrafo-saiba-mais {
+    padding: 8em;
+    position: relative;
+}
+.botao-saiba-mais {
+    margin-left: calc(50% - 65.9px);
+}
+#vertentes {
+    text-align: center;
+}
+.vertentes-fotos img {
+    width: 32%;
+}
+.vertentes-fotos {
+    padding: 3em;
+}
+.botao-faca-parte {
+    margin-left: calc(50% - 65.9px);
+}
+.rodape {
+    padding: 3em;
+}
