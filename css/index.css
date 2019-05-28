@@ -216,15 +216,21 @@
     background-color: #272727;
     
 }
-.rodape li a {
+.rodape ul li a {
     line-height: 1.6;
     font-size: 1.5em;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #728f9c;
+    transition: .6s;
 }
 .rodape .titulo-rodape {
     color: #FFF;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 4.5em;
     padding-bottom: .4em;
+}
+.rodape ul li a:hover {
+    transition: .6s;
+    color: #FFF;
+    text-decoration: none;
 }
