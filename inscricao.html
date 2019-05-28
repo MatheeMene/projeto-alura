@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/inscricao.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <title>Inscrição</title>
+</head>
+<body>
+    <main>
+        <div class="titulo-principal">
+            <h1>Inscreva-se</h1>
+        </div>
+
+        
+        <div class="align">
+            <p>Faça parte deste time se inscrevendo na próxima edição do programa de bolsas.</p>
+            <form action="">
+                <fieldset>
+                    <label for="nome">
+                        Nome completo
+                        <input class="input-text" id="nome" type="text">
+                    </label>
+
+                    <label for="email">
+                        E-mail
+                        <input class="input-text" type="email" id="email" placeholder="seu@email.com">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="bold">Maior disponibilidade</legend>
+                    <label>
+                        <input name="disponibilidade" type="radio" value="manha">
+                        manha
+                    </label>
+
+                    <label>
+                        <input name="disponibilidade" type="radio" value="tarde">
+                        tarde
+                    </label>
+
+                    <label>
+                        <input name="disponibilidade" type="radio" value="noite">
+                        noite
+                    </label>
+
+                    <label>
+                        <input name="disponibilidade" type="radio" value="personalizar">
+                        personalizar
+                    </label>
+                  
+                    <input class="input-text" type="text">
+                </fieldset>  
+
+                <fieldset>
+                    <legend class="bold">Interesses</legend>
+                    <label>
+                        <input type="checkbox">
+                        IA
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Big Data
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Machine Learning
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Outro
+                    </label>
+                    
+                    <input class="input-text" type="text">
+                </fieldset>
+                <fieldset>
+                    <label class="bold">
+                        Porque você quer participar?
+                        <textarea class="input-text" name="" id="" cols="30" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                    </label>
+                </fieldset>
+                <button class="botao-envia" type="submit"><a>Enviar mensagem</a></button>
+            </form>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <h2 class="titulo-rodape">Compasso Tecnologia LTDA.</h2>
+        <ul>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </footer>    
+</body>
+
+</html>

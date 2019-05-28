@@ -1,9 +1,20 @@
 .topo-header .titulo-principal {
     text-align: center;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    font-size: 6.5em;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #000;
+}
+.titulo-labs {
+    font-family: 'Shadows Into Light', 'Arial', sans-serif;
+    font-style: italic; 
+
 }
 .topo-header {
     position: relative;
-    padding: 10em;
+    padding: 14em;
+    background-color: #263e7c;
 }
 .palavras-home {
     position: absolute;
@@ -14,71 +25,177 @@
 }
 .palavra-home {
     position: absolute;
+    color: #6a96cd;
+    font-size: 3em;
+    font-family: 'Shadows Into Light', 'Arial', sans-serif;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
 }
 .blockchain {
-    top: 45%;
-    left: 3%;
+    top: 50%;
+    left: 9%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.9);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.9);
 }
 .clean-code {
-    top: 60%;
-    left: 27%;
+    top: 65%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(.7);
+    opacity: .8;
 }
 .collaboration {
     bottom: 10%;
-    left: 6%;
+    left: 12%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(.5);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(.5);
+    opacity: .6;
 }
 .design {
-    right: 7%;
-    top: 44%;
+    right: 8.5%;
+    top: 43%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(9deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(9deg) scale(.7);
+    opacity: .8;
 }
 .design-thinking {
     right: 7%;
-    top: 60%;
-
+    top: 55.5%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-6deg) scale(1.5);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-6deg) scale(1.5);
 }
 .big-data {
     right: 8%;
     bottom: 13%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.5);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.5);
+    opacity: .6;
 }
 .agile {
-    top: 8%;
-    right: 20%;
+    top: 14%;
+    right: 25%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.7);
 }
 .lot {
-    top: 37%;
-    left: 2%;
+    top: 38%;
+    left: 5%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-6deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-6deg) scale(.7);
+    opacity: .8;
 }
 .digital {
     left: 49%;
-    bottom: 10%;
+    bottom: 5%;
+        -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.7);
+    opacity: .8;
 }
 .machine-learning {
     left: 47%;
     top: 10%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-4deg) scale(.7);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-4deg) scale(.7);
 }
 .artificial-intelligence {
-    top: 3%;
-    left: 7%;
+    top: 10%;
+    left: 18%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.9);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.9);
 }
 .paragrafo-saiba-mais {
-    padding: 8em;
+    padding: 5em;
+    position: relative;
+    background-color: #f0fffc;
+}
+.paragrafo-saiba-mais .botao-saiba-mais {
+    width: 25%;
+    padding: 1.7em;
+    margin-left: calc(50% - 190px);
+    margin-top: 6%;
+    background-color: #263e7c;
+    border: 2px solid #263e7c;
+}
+.paragrafo-saiba-mais .botao-saiba-mais a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.paragrafo-saiba-mais p {
+    color: #b1a1b2;
+}
+.paragrafo-saiba-mais {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    text-align: justify;
+}
+.secao-vertentes {
+    background-color: #263e7c;
     position: relative;
 }
-.botao-saiba-mais {
-    margin-left: calc(50% - 65.9px);
-}
 #vertentes {
+    font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 2.5px 1px #000;
+    padding-top: 1em;
 }
 .vertentes-fotos img {
     width: 32%;
+    border: 4px solid #000;
+}
+.foto-ia {
+
+}
+.foto-machine {
+    transform: scale(1.2);
+}
+.foto-design {
+
+}
+.foto-ia,
+.foto-design {
+    vertical-align: top;
 }
 .vertentes-fotos {
     padding: 3em;
+    padding-right: 0;
+    width: calc(100% - 3em);
+    padding-bottom: 2em;
 }
 .botao-faca-parte {
-    margin-left: calc(50% - 65.9px);
+    width: 25%;
+    padding: 1.5em;
+    margin-left: calc(49% - 217px);
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    margin-bottom: 6em;
+}
+.botao-faca-parte a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #263e7c;
 }
 .rodape {
     padding: 3em;
+    background-color: #272727;
+    
+}
+.rodape li a {
+    line-height: 1.6;
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #728f9c;
+}
+.rodape .titulo-rodape {
+    color: #FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4.5em;
+    padding-bottom: .4em;
 }
