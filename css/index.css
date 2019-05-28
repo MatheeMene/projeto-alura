@@ -115,7 +115,16 @@
     margin-top: 6%;
     background-color: #263e7c;
     border: 2px solid #263e7c;
+    cursor: pointer;
 }
+.paragrafo-saiba-mais .botao-saiba-mais:hover {
+    background-color: #FFF;
+    transition: .8s;
+}
+.paragrafo-saiba-mais .botao-saiba-mais:hover a {
+    color: #263e7c;
+}
+
 .paragrafo-saiba-mais .botao-saiba-mais a {
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
@@ -174,6 +183,7 @@
     background-color: #FFF;
     border: 2px solid #FFF;
     margin-bottom: 6em;
+    cursor: pointer;
 }
 .botao-faca-parte a {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -182,6 +192,15 @@
     text-transform: uppercase;
     color: #263e7c;
 }
+.botao-faca-parte:hover {
+    background-color: #263e7c;
+    border: 2px solid #FFF;
+    transition: .8s;
+}
+.botao-faca-parte:hover a {
+    color: #FFF;
+}
+
 .rodape {
     padding: 3em;
     background-color: #272727;
